@@ -20,9 +20,9 @@ using System;
 
 class Program {
   public static void Main (string[] args) {
-    var numa = 6; // 6 uno de los 3 numeros sumados, puede ser reemplazado por cualquier otro numero entero
-    var numb = 9; // 9 uno de los 3 numeros sumados, puede ser reemplazado por cualquier otro numero entero
-    var numc = 12; // 12 uno de los 3 numeros sumados, puede ser reemplazado por cualquier otro numero entero
+    var numa = 6; // 6 uno de los 3 numeros sumados, puede ser reemplazado por otro numero
+    var numb = 9; // 9 uno de los 3 numeros sumados, puede ser reemplazado por otro numero
+    var numc = 12; // 12 uno de los 3 numeros sumados, puede ser reemplazado por otro numero
     var numd = numa + numb + numc; // suma los 3 numeros
     Console.WriteLine (numd); // printea el resultado de los 3  numero juntos
   }
