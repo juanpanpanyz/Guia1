@@ -53,7 +53,7 @@ class Program {
     Console.WriteLine("\td - Division"); // divide
     Console.Write("¿Tu eleccion? "); // el usuario entra una de las iniciales de la operación que quiere hacer
 
-    switch (Console.ReadLine())
+    switch (Console.ReadLine()) // Eze canay nos lo enseño el año pasado jajsjaj
     {
         case "s":
             Console.WriteLine($"Tu resultado: {num1} + {num2} = " + (num1 + num2)); // el programa suma
