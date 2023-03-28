@@ -36,9 +36,9 @@ using System;
 
 class Program {
   public static void Main (string[] args) {
-    int num1 = 0; int num2 = 0;
+    int num1 = 0; int num2 = 0; // variables de los numeros
 
-    Console.WriteLine("Calculadora en c#");
+    Console.WriteLine("Calculadora en c#"); // Textito xq pinto jaja
 
     Console.WriteLine("Ingresa un numero y apreta Enter"); // el usuario ingresa un numero
     num1 = Convert.ToInt32(Console.ReadLine()); // el programa guarda ese numero
@@ -46,7 +46,7 @@ class Program {
     Console.WriteLine("Ingresa otro numero y apreta Enter"); // el usuario ingresa un numero
     num2 = Convert.ToInt32(Console.ReadLine()); // el programa guarda ese numero
 
-    Console.WriteLine("Elegí una de las siguientes opciones:");
+    Console.WriteLine("Elegí una de las siguientes opciones:"); // el usuario responde con la letra inicial de cualquiera de estas operaciones
     Console.WriteLine("\ts - Suma"); // suma
     Console.WriteLine("\tr - Resta"); // resta
     Console.WriteLine("\tm - Multiplicacion"); // multiplica
@@ -56,19 +56,19 @@ class Program {
     switch (Console.ReadLine())
     {
         case "s":
-            Console.WriteLine($"Tu resultado: {num1} + {num2} = " + (num1 + num2)); // suma
+            Console.WriteLine($"Tu resultado: {num1} + {num2} = " + (num1 + num2)); // el programa suma
             break;
         case "r":
-            Console.WriteLine($"Tu resultado: {num1} - {num2} = " + (num1 - num2)); // resta
+            Console.WriteLine($"Tu resultado: {num1} - {num2} = " + (num1 - num2)); // el programa resta
             break;
         case "m":
-            Console.WriteLine($"Tu resultado: {num1} * {num2} = " + (num1 * num2));  // multiplicacion
+            Console.WriteLine($"Tu resultado: {num1} * {num2} = " + (num1 * num2));  // el programa multiplica
             break;
         case "d":
-            Console.WriteLine($"Tu resultado: {num1} / {num2} = " + (num1 / num2)); // divicion
+            Console.WriteLine($"Tu resultado: {num1} / {num2} = " + (num1 / num2)); // el programa divide
             break;
     }
-    Console.Write("Apreta cualquier tecla y tocar enter para detener el programa");
+    Console.Write("Apreta cualquier tecla y tocar enter para detener el programa"); // el usuario cierra el programar despues de poner cualquier cosa 
     Console.ReadKey();
   }
 }
