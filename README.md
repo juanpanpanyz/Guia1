@@ -1,4 +1,7 @@
 # Guia1
+
+# NO SE COPIEN VAGOS
+
 ### **Alumno:** Juan Baader
 
 ### **Año:** 2023
