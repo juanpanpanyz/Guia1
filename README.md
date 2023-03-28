@@ -1,2 +1,2 @@
 # guia1luuparrondo
-no c copien malos
+no c copien malos haganlo manga de vagos
