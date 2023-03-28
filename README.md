@@ -46,12 +46,12 @@ class Program {
     Console.WriteLine("Ingresa otro numero y apreta Enter"); // el usuario ingresa un numero
     num2 = Convert.ToInt32(Console.ReadLine()); // el programa guarda ese numero
 
-    Console.WriteLine("Elegí una de las siguientes opciones:"); // el usuario responde con la letra inicial de cualquiera de estas operaciones
+    Console.WriteLine("Elegí una de las siguientes opciones:"); // el usuario elige
     Console.WriteLine("\ts - Suma"); // suma
     Console.WriteLine("\tr - Resta"); // resta
     Console.WriteLine("\tm - Multiplicacion"); // multiplica
     Console.WriteLine("\td - Division"); // divide
-    Console.Write("¿Tu eleccion? "); // elegis opcion
+    Console.Write("¿Tu eleccion? "); // el usuario entra una de las iniciales de la operación que quiere hacer
 
     switch (Console.ReadLine())
     {
@@ -68,7 +68,7 @@ class Program {
             Console.WriteLine($"Tu resultado: {num1} / {num2} = " + (num1 / num2)); // el programa divide
             break;
     }
-    Console.Write("Apreta cualquier tecla y tocar enter para detener el programa"); // el usuario cierra el programar despues de poner cualquier cosa 
+    Console.Write("Apreta cualquier tecla y tocar enter para detener el programa"); // el usuario cierra el programar
     Console.ReadKey();
   }
 }
@@ -103,7 +103,7 @@ class Program {
     int tri2 = Convert.ToInt32(Console.ReadLine()); // el programa guarda la nota del trimestre
     Console.WriteLine ("Ingresar la nota de el tercer trimestre"); // el usuario anota la nota del 3er trimestre
     int tri3 = Convert.ToInt32(Console.ReadLine()); // el programa guarda la nota del trimestre
-    int promedio = (tri1 + tri2 + tri3) / 3; // esta variable permite que el programa sume las 3 notas de los trimestres y lo divida por 3 dandole al usuario un promedio
+    int promedio = (tri1 + tri2 + tri3) / 3; // esta variable permite que el programa de al usuario su promedio
     Console.WriteLine (promedio); // printea un promedio
   }
 }
@@ -152,7 +152,7 @@ class Program {
     int nafta = Convert.ToInt32(Console.ReadLine()); // el programa  guarda el precio de la nafta
     Console.WriteLine ("Ingresar la distancia recorrida"); // el usuario ingresa la distancia recorrida
     int distancia = Convert.ToInt32(Console.ReadLine()); // el programa guarda la distancia recorrida
-    int gastos = nafta * distancia / 10; // sabien que por cada 10 kilometros recorridos se gasta 1 litro de nafta hacemos nafta x distancia recorrida dividido 10
+    int gastos = nafta * distancia / 10; // sabiendo que por cada 10 kilometros recorridos se gasta 1 litro de nafta hacemos esto
     Console.WriteLine (gastos); // printea el resultado de los gastos (en nafta)
   }
 }
