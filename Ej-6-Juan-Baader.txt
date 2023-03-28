@@ -1,0 +1,10 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    Console.WriteLine ("Ingresar precio del producto para recibir cuanto pagaria con el valor del IVA incluido");
+    int precio = Convert.ToInt32(Console.ReadLine());
+    int ivachoto = precio + precio / 100 * 21;
+    Console.WriteLine (ivachoto);
+  }
+}

@@ -1,0 +1,11 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    var numa = 6;
+    var numb = 9;
+    var numc = 12;
+    var numd = numa + numb + numc; // 27
+    Console.WriteLine (numd);
+  }
+}

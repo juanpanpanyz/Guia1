@@ -1,0 +1,12 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    Console.WriteLine ("Ingresar precio de la nafta");
+    int nafta = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine ("Ingresar la distancia recorrida");
+    int distancia = Convert.ToInt32(Console.ReadLine());
+    int gastos = nafta * distancia / 10;
+    Console.WriteLine (gastos);
+  }
+}
