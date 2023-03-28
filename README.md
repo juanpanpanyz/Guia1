@@ -1,7 +1,5 @@
 # Guia1
-### **Alumnos:** Juan Baader
-
-### **Guia 1**
+### **Alumno:** Juan Baader
 
 ### **Año:** 2023
 
