@@ -1,12 +1,14 @@
-# Guia1
+# Guia  1
 
-# NO SE COPIEN VAGOS
+# NO SE COPIEN VAGOS 
 
 ### **Alumno:** Juan Baader
 
 ### **Año:** 2023
 
 ### **Curso:** 3B TIC
+
+### **Profesora** Luu Parrondo
 
 [Link a Github](https://github.com/juanpanpanyz/Guia1)
 
