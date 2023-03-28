@@ -133,9 +133,9 @@ using System;
 
 class Program {
   public static void Main (string[] args) {
-    Console.WriteLine ("Ingresar precio del producto para recibir cuanto pagaria con el valor del IVA incluido"); // el usuario ingrese el precio del producto
+    Console.WriteLine ("Ingresar precio del producto para recibir cuanto pagaria de IVA "); // el usuario ingrese el precio
     int precio = Convert.ToInt32(Console.ReadLine()); //el programa guarda el precio del producto
-    int ivachoto = precio + precio / 100 * 21; // sabiendo que el iba es 21% al precio del producto lo divido x 100 y lo multiplico x 21 dandome el 21%
+    int ivachoto = precio + precio / 100 * 21; // sabiendo que el iba es 21% al precio realizo esta cuenta
     Console.WriteLine (ivachoto); // printea el resultado del impuesto y el precio
   }
 }   
