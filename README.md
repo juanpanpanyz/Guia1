@@ -8,7 +8,7 @@
 
 ### **Curso:** 3B TIC
 
-[Link a Github](https://github.com/juanpanpanyz/guia1luuparrondo/edit/main/README.md)
+[Link a Github](https://github.com/juanpanpanyz/Guia1)
 
 <br>
 
