@@ -40,38 +40,37 @@ class Program {
   public static void Main (string[] args) {
     int num1 = 0; int num2 = 0;
 
-    Console.WriteLine("Console Calculator in C#\r");
-    Console.WriteLine("------------------------\n");
+    Console.WriteLine("Calculadora en c#");
 
-    Console.WriteLine("Type a number, and then press Enter");
-    num1 = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Ingresa un numero y apreta Enter"); // el usuario ingresa un numero
+    num1 = Convert.ToInt32(Console.ReadLine()); // el programa guarda ese numero
 
-    Console.WriteLine("Type another number, and then press Enter");
-    num2 = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Ingresa otro numero y apreta Enter"); // el usuario ingresa un numero
+    num2 = Convert.ToInt32(Console.ReadLine()); // el programa guarda ese numero
 
-    Console.WriteLine("Choose an option from the following list:");
-    Console.WriteLine("\ta - Add"); // suma
-    Console.WriteLine("\ts - Subtract"); // resta
-    Console.WriteLine("\tm - Multiply"); // multiplicacion
-    Console.WriteLine("\td - Divide"); // divicion
-    Console.Write("Your option? "); // elegis opcion
+    Console.WriteLine("Elegí una de las siguientes opciones:");
+    Console.WriteLine("\ts - Suma"); // suma
+    Console.WriteLine("\tr - Resta"); // resta
+    Console.WriteLine("\tm - Multiplicacion"); // multiplica
+    Console.WriteLine("\td - Division"); // divide
+    Console.Write("¿Tu eleccion? "); // elegis opcion
 
     switch (Console.ReadLine())
     {
-        case "a":
-            Console.WriteLine($"Your result: {num1} + {num2} = " + (num1 + num2)); // suma
-            break;
         case "s":
-            Console.WriteLine($"Your result: {num1} - {num2} = " + (num1 - num2)); // resta
+            Console.WriteLine($"Tu resultado: {num1} + {num2} = " + (num1 + num2)); // suma
+            break;
+        case "r":
+            Console.WriteLine($"Tu resultado: {num1} - {num2} = " + (num1 - num2)); // resta
             break;
         case "m":
-            Console.WriteLine($"Your result: {num1} * {num2} = " + (num1 * num2));  // multiplicacion
+            Console.WriteLine($"Tu resultado: {num1} * {num2} = " + (num1 * num2));  // multiplicacion
             break;
         case "d":
-            Console.WriteLine($"Your result: {num1} / {num2} = " + (num1 / num2)); // divicion
+            Console.WriteLine($"Tu resultado: {num1} / {num2} = " + (num1 / num2)); // divicion
             break;
     }
-    Console.Write("Press any key to close the Calculator console app...");
+    Console.Write("Apreta cualquier tecla y tocar enter para detener el programa");
     Console.ReadKey();
   }
 }
